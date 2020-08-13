@@ -15,11 +15,20 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
-- Bulleted
-- List
+%initialise variables
+clear all
+close all
+c1=0.04;
+c2=-c1;
+c3=0.08;
+c4=-c3;
+p1=[];
 
-1. Numbered
-2. List
+
+p2=1.5;
+p3=1.75;
+y3=[];
+z1=3;
 
 **Bold** and _Italic_ and `Code` text
 

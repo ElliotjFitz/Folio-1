@@ -116,7 +116,7 @@ ylim([0,1])
 
 **Bold** and _Italic_ and `Code` text
 
-![Filter_in_action](blob/gh-pages/Filter%20perf.png)
+![Filter_in_action](./gh-pages/Filter%20perf.png)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).

@@ -118,7 +118,7 @@ ylim([0,1])
 
 
 ```
-![Filter-states](https://github.com/ElliotjFitz/Folio-1/blob/gh-pages/Filter%20perf.png)
+![Filter-states](https://github.com/ElliotjFitz/Folio-1/blob/gh-pages/Filter%20perf.png?raw=true)
 
 
 ![Cost/Error over time](https://github.com/ElliotjFitz/Folio-1/blob/gh-pages/cost.png?raw=true)

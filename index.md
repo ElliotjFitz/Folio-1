@@ -116,7 +116,7 @@ ylim([0,1])
 
 **Bold** and _Italic_ and `Code` text
 
-![Filter_in_action](https://photos.app.goo.gl/Ryapy6FBdNRyoAsz6)
+![Filter_in_action](https://github.com/ElliotjFitz/Folio-1/blob/gh-pages/Filter%20perf.png)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).

@@ -120,7 +120,12 @@ ylim([0,1])
 ```
 ![Filter-states](https://github.com/ElliotjFitz/Folio-1/blob/gh-pages/Filter%20perf.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+![Cost/Error over time](https://github.com/ElliotjFitz/Folio-1/blob/gh-pages/cost.png?raw=true)
+
+What we see is that after the initial errors in estimation, the filter will stabilise to a minimal error variance after the 50 hour mark. 
+
+
 
 ### Jekyll Themes
 
@@ -133,4 +138,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 You can use the [editor on GitHub](https://github.com/ElliotjFitz/github-slideshow/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).

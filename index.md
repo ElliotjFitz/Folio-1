@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Elliot's Digital Folio
 
 ### Markdown
 The following is the implementation of a Kalman Filter coded without using ss and kalmf. The scenario presented is as follows: There are 3 dams with only two having working sensors and so we must use a Kalman filter to estimate the missing sensor's value. The timescale here is to the order of hours and the model is linearised. 

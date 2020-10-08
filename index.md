@@ -1,11 +1,19 @@
 ## Welcome to Elliot's Digital Folio
 
-### Markdown
+### Simulation of 5098 sand particles in 2D under axial loading
+
+In this project, I used R and MATLAB to simulate and analyse a system of 5098 sand particles under axial loading in 2D. Here I used a measure of betweenness centrality to predict the shear band's location prior to peak loading stress. The operating assumtion here is that force travels along the path of least resistance. Notice that the colouring of the nodes show the orange nodes as having the highest betweenness centrality measure. This wonderfully coincides with the approximate location of the V shaped shear band.
+
+![Shear Band Sim](https://github.com/ElliotjFitz/Page/blob/gh-pages/0.02CVElliot.avi?raw=true)
+
+
+
+### Kalman Filter Implementation in MATLAB
 The following is the implementation of a Kalman Filter coded without using ss and kalmf. The scenario presented is as follows: There are 3 dams with only two having working sensors and so we must use a Kalman filter to estimate the missing sensor's value. The timescale here is to the order of hours and the model is linearised. 
 ```
 # Filter code
 
-%initialise variables/constants
+                                                                       %initialise variables/constants
 clear all
 close all
 c1=0.04;
@@ -23,8 +31,8 @@ z1=3;
 s2=0.005;
 s3=s2;
 sw3=00.00375;
-%p1 signal generator
-%dummy denotes the times the gate is lifted over 6 hours.
+                                                                       %p1 signal generator
+                                                                       %dummy denotes the times the gate is lifted over 6 hours.
 dummy=[1:10 20:30 40:45 60:63 90:130 190:200 210:212 215:219 300:350];
 for i=1:(60*6)
     p1(i)=2.5;
@@ -62,8 +70,8 @@ xhat(1:3,1)=[0; 0; 0];
 F=A;
 G=[c1;0;0];
 H=[0 1 0];
-V = [s2^2 0 0; 0 s3^2 0; 0 0 0]; %covariance matrix
-W = sw3^2; % additive white noise
+V = [s2^2 0 0; 0 s3^2 0; 0 0 0];                                                %covariance matrix
+W = sw3^2;                                                                      % additive white noise
 P=eye(3)*1000;
 innov=0;
 K=[];
@@ -71,7 +79,7 @@ Kp=F*P*(H')*inv(H*P*(H')+W);
 K(1:3,1)=Kp;
 yhat(2)=1;
 
-% in filter form
+                                                                                % in filter form
 xf=[];
 Kf=[];
 xf(1:3,1)=[1;1;1];
